@@ -1,7 +1,7 @@
 import * as emailjs from 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
 
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("contact-form").addEventListener("submit", function(event) {
+  document.getElementById("btn").addEventListener("submit", function(event) {
     event.preventDefault();
 
     const params = {
